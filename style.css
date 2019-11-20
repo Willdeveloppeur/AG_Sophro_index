@@ -1,0 +1,448 @@
+/*
+Theme Name: Sophro
+Author: Simplon Clermont 2019
+Description: Thème sophrologie Armelle GARDANÈS
+Version: 1.0
+*/
+html{
+    /* background-color: red; */
+}
+
+.menu {
+    position: fixed;
+    top: 0px;
+}
+
+.admin-bar .menu {
+	top: 32px; /* on prend en compte le décalage */
+}
+
+span{
+    color: #A2195B;
+    font-size: 50px;
+}
+
+
+html {
+    margin: 0;
+    padding: 0;
+    width: 99vw;
+    height: 100%;
+    background-image: url("3574.png ");
+    background-size:100vw;
+    overflow: hidden;
+    
+}
+
+/* nav fixed on top */
+
+header {
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    /* display: flex; */
+    background-color: whitesmoke;
+    -webkit-box-shadow: 0px 39px 36px -13px rgba(0,0,0,0.73);
+    -moz-box-shadow: 0px 39px 36px -13px rgba(0,0,0,0.73);
+    box-shadow: 0px 39px 36px -13px rgba(0,0,0,0.73);
+}
+
+.nav {
+    position: relative;
+    margin-left: -8px;
+    top: 0;
+    z-index: 100;
+    width: 100vw;
+    display: flex;
+    text-align: center;
+    background-color: whitesmoke;
+
+}
+
+.nav a {
+    margin-left: 10%;
+    text-decoration: none;
+    padding: 1.5vw 0 1vw 0;
+    color: rgb(0, 0, 0);
+    font-size: 1vw;
+    width: 6%;
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+}
+.logoPro {
+    z-index: 120;
+    background-color: whitesmoke;
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+#logo{
+    /* width: 20%; */
+}
+#AGlogo {
+    /* padding: 2%; */
+    z-index: 120;
+    height: 14vh;
+    width: 14vw;
+   
+}
+#name{
+    width: 80%;
+}
+.name h1{
+    font-size: 2vw;
+}
+
+#partners {
+    width: 12%;
+    display: flex;
+    flex-direction: row;
+    
+}
+#partners img{
+    width: 50%;
+    height: 100%;
+    margin-left: 1%;
+}
+
+#syndsophro, #fepslogo {
+}
+
+/* .logoPro img {
+    width: 15%;
+} */
+
+/* Center */
+
+.bubble {
+    z-index: 1;
+    margin: 16vh 10vw;
+    position: absolute;
+    height: 75vh;
+    width: 75vw;
+}
+
+/* div of yellow point*/
+
+#yellow_point {
+    /* display: none; */
+}
+
+/* div of purple point*/
+
+#purple_point {
+    position: relative;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+/* each yellow_point translation */
+
+#pointJ1 {
+    position: absolute;
+    height: 4vw;
+    margin-left: 38.6%;
+    margin-top: 5.5%;
+}
+
+#pointJ2 {
+    position: absolute;
+    height: 4vw;
+    margin-left: 55%;
+    margin-top: 7.5%;
+}
+
+#pointJ3 {
+    position: absolute;
+    height: 4vw;
+    margin-left: 61.5%;
+    margin-top: 19%;
+}
+
+#pointJ4 {
+    position: absolute;
+    height: 4vw;
+    margin-left: 57%;
+    margin-top: 34%;
+}
+
+#pointJ5 {
+    position: absolute;
+    height: 4vw;
+    margin-left: 42.3%;
+    margin-top: 38%;
+}
+
+#pointJ6 {
+    position: absolute;
+    height: 4vw;
+    margin-left: 29%;
+    margin-top: 29.5%;
+}
+
+#pointJ7 {
+    position: absolute;
+    height: 4vw;
+    margin-left: 27%;
+    margin-top: 15.8%;
+}
+
+#pointJ8 {
+    position: absolute;
+    height: 4vw;
+    margin-left: 49%;
+    margin-top: 2%;
+}
+
+/* texte soi */
+
+#pointJ9 {
+    position: absolute;
+    height: 4vw;
+    margin-left: 64%;
+    margin-top: 13%;
+}
+
+#sens {
+    font-family: 'Dancing Script', cursive;
+    color: black;
+    font-size: 1.5vw;
+    position: absolute;
+    height: 4vw;
+    margin-left: 65%;
+    margin-top: 14%;
+}
+
+/* #wordone{
+    position : absolute;
+    display: none;
+} */
+
+#pointJ10 {
+    position: absolute;
+    height: 4vw;
+    margin-left: 64%;
+    margin-top: 30%;
+}
+
+#pointJ11 {
+    position: absolute;
+    height: 4vw;
+    margin-left: 52%;
+    margin-top: 42%;
+}
+
+#pointJ12 {
+    position: absolute;
+    height: 4vw;
+    margin-left: 34%;
+    margin-top: 39.5%;
+}
+
+/* Respect word*/
+
+#pointJ13 {
+    z-index: 1;
+    position: absolute;
+    height: 4vw;
+    margin-left: 23%;
+    margin-top: 24%;
+}
+
+#respect {
+    font-family: 'Dancing Script', cursive;
+    color: black;
+    z-index: 99;
+    position: absolute;
+    font-size: 0.5vw;
+    margin-left: 1% !important;
+    margin-top: 25%;
+}
+
+#pointJ14 {
+    position: absolute;
+    height: 4vw;
+    margin-left: 28%;
+    margin-top: 7%;
+}
+
+/* each purple_point translation */
+
+/* center point */
+
+#pointM1 {
+    /* display: flex; */
+    z-index: 1;
+    position: absolute;
+    height: 11.5vw;
+    margin-left: 41%;
+    margin-top: 17%;
+}
+
+#soi {
+    letter-spacing: 1px;
+    font-family: 'Dancing Script', cursive;
+    color: black;
+    font-size: 1.7vw;
+    z-index: 2;
+    position: absolute;
+    height: 13vw;
+    margin-left: 43.8%;
+    margin-top: 23%;
+    animation: 12s linear 0s infinite;
+}
+
+/* Seven point around first */
+
+#pointM2 {
+    position: absolute;
+    height: 6vw;
+    margin-left: 40%;
+    margin-top: 11%;
+}
+
+#pointM3 {
+    position: absolute;
+    height: 6vw;
+    margin-left: 50%;
+    margin-top: 11.5%;
+}
+
+#pointM4 {
+    position: absolute;
+    height: 6vw;
+    margin-left: 55%;
+    margin-top: 20%;
+}
+
+#pointM5 {
+    position: absolute;
+    height: 6vw;
+    margin-left: 51%;
+    margin-top: 28%;
+}
+
+#pointM6 {
+    position: absolute;
+    height: 6vw;
+    margin-left: 42%;
+    margin-top: 30.5%;
+}
+
+#pointM7 {
+    position: absolute;
+    height: 6vw;
+    margin-left: 35%;
+    margin-top: 25.5%;
+}
+
+#pointM8 {
+    position: absolute;
+    height: 6vw;
+    margin-left: 33%;
+    margin-top: 17.5%;
+}
+
+/* second round */
+
+#pointM9 {
+    position: absolute;
+    height: 4vw;
+    margin-left: 47%;
+    margin-top: 7%;
+}
+
+#pointM10 {
+    position: absolute;
+    height: 4vw;
+    margin-left: 58%;
+    margin-top: 14.5%;
+}
+
+#pointM11 {
+    position: absolute;
+    height: 4vw;
+    margin-left: 58%;
+    margin-top: 26.4%;
+}
+
+#pointM12 {
+    position: absolute;
+    height: 4vw;
+    margin-left: 49%;
+    margin-top: 35%;
+}
+
+#pointM13 {
+    position: absolute;
+    height: 4vw;
+    margin-left: 37%;
+    margin-top: 33.5%;
+}
+
+#pointM14 {
+    position: absolute;
+    height: 4vw;
+    margin-left: 29%;
+    margin-top: 23%;
+}
+
+#pointM15 {
+    position: absolute;
+    height: 4vw;
+    margin-left: 33%;
+    margin-top: 11%;
+}
+
+#pointM16 {
+    position: absolute;
+    height: 3vw;
+    margin-left: 37%;
+    margin-top: 2%;
+}
+
+#pointM17 {
+    position: absolute;
+    height: 3vw;
+    margin-left: 59%;
+    margin-top: 4.5%;
+}
+
+#pointM18 {
+    position: absolute;
+    height: 3vw;
+    margin-left: 67%;
+    margin-top: 19.8%;
+}
+
+#pointM19 {
+    position: absolute;
+    height: 3vw;
+    margin-left: 61%;
+    margin-top: 39%;
+}
+
+#pointM20 {
+    position: absolute;
+    height: 3vw;
+    margin-left: 42.7%;
+    margin-top: 43%;
+}
+
+#pointM21 {
+    position: absolute;
+    height: 3vw;
+    margin-left: 25%;
+    margin-top: 33%;
+}
+
+#pointM22 {
+    position: absolute;
+    height: 3vw;
+    margin-left: 22%;
+    margin-top: 14%;
+}
